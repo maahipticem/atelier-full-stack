@@ -3,10 +3,17 @@
 /* ************************************************************************* */
 
 // Import the manager modules responsible for handling data operations on the tables
-const ItemManager = require("./models/ItemManager");
+const MedecinManager = require("./models/MedecinManager");
+const EpisodeManager = require("./models/EpisodeManager");
+const FormulaireManager = require("./models/FormulaireManager");
+const HopitalManager = require("./models/HopitalManager");
 
 const managers = [
-  ItemManager,
+  MedecinManager,
+  EpisodeManager,
+  FormulaireManager,
+  HopitalManager,
+
   // Add other managers here
 ];
 

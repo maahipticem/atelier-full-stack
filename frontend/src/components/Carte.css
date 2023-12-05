@@ -1,0 +1,14 @@
+.containerImage {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 1rem;
+  border-color: aliceblue;
+  border-style: inset;
+}
+
+.containerCarte {
+  border: solid;
+  border-radius: 16px;
+  border-color: aliceblue;
+  border-style: inset;
+}

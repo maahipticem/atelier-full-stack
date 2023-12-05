@@ -1,0 +1,36 @@
+.titre {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  text-decoration: underline overline red;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.titreH2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  text-decoration: underline overline red;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.button {
+  font-size: 2rem;
+  border-radius: 2rem;
+  padding: 40px;
+  cursor: pointer;
+}
+
+.image {
+  width: 40%;
+  height: 100%;
+}
+
+.centreImage {
+  text-align: center;
+}

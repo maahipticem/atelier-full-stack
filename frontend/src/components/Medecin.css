@@ -1,0 +1,77 @@
+.medecinPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+  margin-left: 30rem;
+  margin-right: 30rem;
+  color: black;
+  font-size: 4rem;
+  padding: 10px;
+}
+
+.buttonMedecin {
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+}
+.button {
+  text-decoration: double;
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: initial;
+  cursor: pointer;
+  border-radius: 42px;
+  padding: 10px;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.titreH2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  text-decoration: underline overline red;
+  font-size: 6rem;
+  text-align: center;
+}
+.fiche {
+  /* border: solid;
+  border-radius: 16px;
+  border-color: aliceblue;
+  border-style: inset; */
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraphe {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.paragrapheOu {
+  margin: 20px;
+  color: white;
+  font-style: italic;
+}
+
+.containerImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: none;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.image {
+  border-radius: 10px;
+}
+.descriptif {
+  text-align: center;
+}

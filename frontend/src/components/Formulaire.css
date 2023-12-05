@@ -1,0 +1,44 @@
+.formulaire {
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr;
+
+  color: #1c3b42;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  font-weight: bold;
+  font-size: 1.5rem;
+  gap: 10px;
+}
+
+.label {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+input:invalid {
+  border: rgb(255, 128, 0) solid 1px;
+}
+
+.buttonBlanc {
+  appearance: button;
+
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #1c3b42;
+}

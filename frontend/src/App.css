@@ -1,10 +1,19 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 50%,
+    rgba(9, 9, 121, 1) 100%
+  );
+
+  margin: 0;
+  padding: 0;
 }
 
 code {
@@ -53,4 +62,32 @@ code {
 
 button {
   font-size: calc(10px + 2vmin);
+}
+
+.container {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.hautDePage {
+  position: fixed;
+  right: 0;
+  border-radius: 20%;
+  margin: 200px 20px 10px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: #717377 solid 2px;
+}
+
+.buttonHome {
+  margin-top: 20px;
+  color: white;
+  padding: 10px;
+  font-size: 3rem;
+  text-align: center;
 }

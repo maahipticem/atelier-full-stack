@@ -1,0 +1,25 @@
+.titreH2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  text-decoration: underline overline red;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.buttonForm {
+  text-decoration: double;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: initial;
+  cursor: pointer;
+  border-radius: 42px;
+  padding: 20px;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,17 @@
+.navbarRecherche {
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttonEpisodes {
+  text-decoration: double;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: initial;
+  cursor: pointer;
+  border-radius: 42px;
+  padding: 20px;
+}
